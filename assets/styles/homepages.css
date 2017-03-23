@@ -103,14 +103,15 @@ section::after {
     transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0; } }
 
-/***************QUI_SUI_JE********************/
+/***************Concept********************/
 
 #section06 h1 {
   color: black;
+  margin-top: 90px;
   font: normal 300 64px/1 'Josefin Sans', sans-serif;
   text-align: center;
   padding: 20px;
-  white-space: nowrap; }
+   }
 
 #section06 img {
   width: 350px;
@@ -128,3 +129,20 @@ section::after {
   text-align: center;
   padding: 20px;
   white-space: nowrap; }
+
+  .button-prestation {
+      margin-top:24px;
+      margin-left:2%;
+      background-color:#F85F5F;
+      padding:0 15px;
+      line-height:36px;
+      float:left;
+      color:#FFF;
+      font-weight:600;
+      cursor:pointer;
+  }
+  .show-presta41, .show-presta42, .show-presta43 {
+      display:none;
+      clear:both;
+      width:100%;
+  }

@@ -23,4 +23,14 @@ $( document ).ready(function() {
           window.sr = ScrollReveal({ reset: true });
           sr.reveal('.mov_left', { duration: 1000, origin: 'left', mobile: true });
           sr.reveal('.mov_right', { duration: 1000, origin: 'right', mobile: true });
+
+    //for toogle button
+    $(".button-prestation").click(function (e) {
+
+       e.preventDefault();
+
+       $('[class^=show-presta]').not($('.'+this.id)).hide();
+
+       $('.'+this.id).slideToggle(500);
+})
 });
