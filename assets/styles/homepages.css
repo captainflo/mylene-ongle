@@ -113,30 +113,56 @@ section::after {
   padding: 20px;
    }
 
+#section06 h2 {
+  color: black;
+  font: normal 300 28px/1 'Josefin Sans', sans-serif;
+}
+
 #section06 img {
   width: 350px;
+  padding-top: 60px;
 }
 
 #section06 p {
   font: normal 300 20px/1 'Josefin Sans', sans-serif;
   line-height: 1.3;
+  color: #a2a2a2;
+}
+.mov_left{
+  text-align: right;
 }
 
+.mov_right{
+  text-align: left;
+}
+
+
+.mov_left2{
+  padding-top: 50px;
+}
+
+.mov_right2{
+  padding-top: 50px;
+}
+
+.fa-calendar-check-o,.fa-users,.fa-id-card-o,.fa-thumbs-o-up{
+  color : #c39f76;
+  font-size: 35px;
+}
 /***********************LE BAR **********************/
 #section07 h1 {
   color: black;
+  margin-top: 90px;
   font: normal 300 64px/1 'Josefin Sans', sans-serif;
   text-align: center;
   padding: 20px;
-  white-space: nowrap; }
+   }
 
   .button-prestation {
       margin-top:24px;
-      margin-left:2%;
       background-color:#F85F5F;
       padding:0 15px;
       line-height:36px;
-      float:left;
       color:#FFF;
       font-weight:600;
       cursor:pointer;
@@ -145,4 +171,5 @@ section::after {
       display:none;
       clear:both;
       width:100%;
+      padding: 90px;
   }
