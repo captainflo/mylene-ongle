@@ -3,8 +3,9 @@
   margin: 0;
   padding: 0; }
 
-html, body {
-  height: 100%; }
+  html, body {
+    height: 100%;
+    width: 100%;}
 
 section {
   position: relative;
@@ -131,14 +132,13 @@ section::after {
 .mov_left{
   text-align: right;
 }
-
-.mov_right{
-  text-align: left;
+.mov_right1, .mov_right3{
+  padding-top: 50px;
+  padding-left: 25px;
 }
-
-
 .mov_left2{
   padding-top: 50px;
+  text-align: right;
 }
 
 .mov_right2{

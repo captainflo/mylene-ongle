@@ -24,8 +24,11 @@ $( document ).ready(function() {
           sr.reveal('.mov_left', { duration: 1500, origin: 'left',distance: '150px', mobile: true });
           sr.reveal('.mov_right', { duration: 1500, origin: 'right',distance: '150px', mobile: true });
           sr.reveal('.mov_left2', { duration: 1500, origin: 'left',distance: '150px',delay: 800, mobile: true });
-          sr.reveal('.mov_right2', { duration: 1500, origin: 'right',distance: '150px',delay: 800, mobile: true });
+          sr.reveal('.mov_right2', { duration: 1500, origin: 'right',distance: '150px',delay: 800,mobile: true});
           sr.reveal('.mov_up', { duration: 1000, origin: 'bottom',distance: '150px', delay: 1500, easing: 'linear', mobile: true });
+          // for mobile move_right(1) and move_right2(3) //
+          sr.reveal('.mov_right1', { duration: 1500, origin: 'right', mobile: true });
+          sr.reveal('.mov_right3', { duration: 1500, origin: 'right',delay: 800,mobile: true});
 
 
     //for toogle button

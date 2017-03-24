@@ -8,7 +8,7 @@
   padding: 0px 30px;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  max-width: 100%;
   font-family: 'Josefin', sans-serif;
   background-color: #fff;
 }
@@ -73,6 +73,7 @@
   flex: 0 1 auto;
   cursor: pointer;
   padding: 0 0px;
+
 }
 
 /* Navbar standard link */
