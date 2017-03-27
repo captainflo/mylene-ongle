@@ -31,13 +31,31 @@ $( document ).ready(function() {
           sr.reveal('.mov_right3', { duration: 1500, origin: 'right',delay: 800,mobile: true});
 
 
-    //for toogle button
-    $(".button-prestation").click(function (e) {
+//for toogle button
+$(".button-prestation").click(function (e) {
 
        e.preventDefault();
 
        $('[class^=show-presta]').not($('.'+this.id)).hide();
 
        $('.'+this.id).show(1000);
+})
+
+$(".button-prestation1").click(function (e) {
+
+   e.preventDefault();
+
+   $('[class^=show-presta]').not($('.'+this.id)).hide();
+
+   $('.'+this.id).show(1000);
+})
+
+$(".button-prestation2").click(function (e) {
+
+   e.preventDefault();
+
+   $('[class^=show-presta]').not($('.'+this.id)).hide();
+
+   $('.'+this.id).show(1000);
 })
 });

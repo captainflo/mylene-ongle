@@ -24,7 +24,8 @@
 
 /* Navbar logo */
 .navbar-wagon-brand{
-  width: 80px;
+  width: 160px;
+  padding: 50px;
 }
 
 /* Navbar right section (with form, links, button) */
@@ -37,7 +38,7 @@
 }
 
 .navbar-wagon-right a {
-  color : #c39f76;
+  color : #f597a0;
   font-size: 20px;
   font-family: 'Josefin';
 }
@@ -145,7 +146,7 @@
 }
 .navbar-wagon-dropdown-menu li > a {
   transition: color 0.3s ease;
-  color: #c39f76 !important;
+  color: #f597a0 !important;
   font-size: 15px !important;
   line-height: 22px !important;
   padding: 10px 20px;
@@ -169,7 +170,7 @@
 
 /* hamburger dropdown*/
 .fa-bars{
-  color : #c39f76;
+  color : #f597a0;
 }
 
 .fa-navicon:before, .fa-reorder:before, .fa-bars:before {
