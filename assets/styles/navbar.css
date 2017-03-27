@@ -33,14 +33,13 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   color : #fff;
 }
 
 .navbar-wagon-right a {
   color : #f597a0;
-  font-size: 20px;
-  font-family: 'Josefin';
+  font: normal 300 25px/1 'Josefin Sans', sans-serif;
 }
 
 .navbar-wagon-right a:hover {
