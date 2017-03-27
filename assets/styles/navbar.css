@@ -5,7 +5,7 @@
   transition: all 0.3s ease;
   display: flex;
   height: 80px;
-  padding: 0px 30px;
+  padding-right: 40px;
   align-items: center;
   justify-content: space-between;
   max-width: 100%;

@@ -139,6 +139,7 @@
 #section07{
   padding-bottom: 60px;
   padding-top: 90px;
+  background-color: #f8f8f8;
 }
 
 #section07 h1 {
@@ -239,17 +240,62 @@
   padding-top: 90px;
 }
 #section08{
-  background-image: url(/images/test28.png);
-  object-position: center center;
-  width: auto;
-  height: 100%;
+  background-image: url("/images/test28.png");
+  object-fit: cover;
+  object-position: center fixed;
   background-size: cover;
+  height: 100%;
 
 }
 
 #section08 h1 {
   color: black;
+  float: right;
+  padding-right: 250px;
   padding-bottom: 60px;
   font: normal 300 64px/1 'Josefin Sans', sans-serif;
   text-align: center;
    }
+/******************** Contact ***********************/
+#section09{
+
+}
+
+
+
+
+/******************** Phone tablette ***********************/
+
+@media screen and (min-width: 200px) and (max-width: 640px) {
+
+/*****banner*****/
+  #section05 img {
+    margin-top: 80px;
+  }
+/******Concept*****/
+  #section06 {
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+#section06 h2 {
+    font: normal 300 25px/1 'Josefin Sans', sans-serif;
+}
+
+/*********Prestation*********/
+#section07 img {
+    width: 282px;
+    display: block;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button-prestation, .button-prestation1, .button-prestation2 {
+  width: 85px;
+  height: 85px;
+  padding: 20px 5px;
+  font-size: 12px;
+  }
+}
