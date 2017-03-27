@@ -21,14 +21,14 @@ $( document ).ready(function() {
           });
           //for animation move right and left
           window.sr = ScrollReveal({ reset: true });
-          sr.reveal('.mov_left', { duration: 1500, origin: 'left',distance: '150px', });
-          sr.reveal('.mov_right', { duration: 1500, origin: 'right',distance: '150px' });
-          sr.reveal('.mov_left2', { duration: 1500, origin: 'left',distance: '150px',delay: 800 });
-          sr.reveal('.mov_right2', { duration: 1500, origin: 'right',distance: '150px',delay: 800});
-          sr.reveal('.mov_up', { duration: 1000, origin: 'bottom',distance: '150px', delay: 1500, easing: 'linear' });
+          sr.reveal('.mov_left', { duration: 1500, origin: 'left',distance: '150px', useDelay: 'once'});
+          sr.reveal('.mov_right', { duration: 1500, origin: 'right',distance: '150px',useDelay: 'once' });
+          sr.reveal('.mov_left2', { duration: 1500, origin: 'left',distance: '150px',delay: 800,useDelay: 'once' });
+          sr.reveal('.mov_right2', { duration: 1500, origin: 'right',distance: '150px',delay: 800,useDelay: 'once'});
+          sr.reveal('.mov_up', { duration: 1000, origin: 'bottom',distance: '150px', delay: 1500, easing: 'linear',useDelay: 'once' });
           // for mobile move_right(1) and move_right2(3) //
-          sr.reveal('.mov_right1', { duration: 1500, origin: 'right', });
-          sr.reveal('.mov_right3', { duration: 1500, origin: 'right',delay: 800});
+          sr.reveal('.mov_right1', { duration: 1500, origin: 'right',useDelay: 'once' });
+          sr.reveal('.mov_right3', { duration: 1500, origin: 'right',delay: 800,useDelay: 'once'});
 
 
 //for toogle button
