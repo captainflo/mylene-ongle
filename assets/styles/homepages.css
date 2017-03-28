@@ -168,7 +168,7 @@
   display: block;
   border-radius: 8px;
   margin-left: auto;
-  
+
 }
 
 #section07 p {
@@ -252,6 +252,13 @@
       clear:both;
       width:100%;
       padding-top: 90px;
+  }
+
+  .show-presta41{
+    display: block;
+  }
+  .presta-fix{
+    height: 600px;
   }
 
 /******************** Tarif ***********************/
