@@ -38,7 +38,7 @@ $(".button-prestation").click(function (e) {
 
        $('[class^=show-presta]').not($('.'+this.id)).hide();
 
-       $('.'+this.id).show(1000);
+       $('.'+this.id).show();
 })
 
 $(".button-prestation1").click(function (e) {
@@ -47,7 +47,7 @@ $(".button-prestation1").click(function (e) {
 
    $('[class^=show-presta]').not($('.'+this.id)).hide();
 
-   $('.'+this.id).show(1000);
+   $('.'+this.id).show();
 })
 
 $(".button-prestation2").click(function (e) {
@@ -56,6 +56,6 @@ $(".button-prestation2").click(function (e) {
 
    $('[class^=show-presta]').not($('.'+this.id)).hide();
 
-   $('.'+this.id).show(1000);
+   $('.'+this.id).show();
 })
 });

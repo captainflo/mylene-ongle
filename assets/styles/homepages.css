@@ -88,7 +88,7 @@
 
 /***************Concept********************/
 #section06{
-  padding-bottom: 60px;
+  padding-bottom: 220px;
   padding-top: 90px;
 }
 #section06 h1 {
@@ -274,7 +274,59 @@
   text-align: center;
 }
 
+#section08 span{
+  color: #f597a0;
+  margin-right: 20px;
+  text-decoration: none;
+  list-style-type:none;
+}
 
+#section08 ul{
+  list-style-type:none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#section08 li {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font: normal 600 20px/1 'Josefin Sans', sans-serif;
+  color: #a2a2a2;
+
+}
+
+caption{
+  padding-top: 30px;
+  color: black;
+ font: normal 300 28px/1 'Josefin Sans', sans-serif;
+}
+
+#section08 th {
+  color: #f597a0;
+  margin-right: 40px;
+  font: normal 300 20px/1 'Josefin Sans', sans-serif;
+  vertical-align: baseline;
+  line-height: 0.5;
+}
+
+#section08 td {
+  display: block;
+  font: normal 300 20px/1 'Josefin Sans', sans-serif;
+  color: #a2a2a2;
+  line-height: 1.2;
+  margin-left: 15px;
+}
+
+#section08 tr {
+  min-height: 25px;
+}
+
+#section08 p {
+  float: left;
+  margin: 0;
+}
 
 /******************** Contact ***********************/
 #section09{
