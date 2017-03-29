@@ -57,5 +57,5 @@ $(".button-prestation2").click(function (e) {
    $('[class^=show-presta]').not($('.'+this.id)).hide();
 
    $('.'+this.id).show();
-})
+ })
 });
