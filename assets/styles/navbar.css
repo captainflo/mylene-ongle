@@ -16,7 +16,6 @@
 /* Optional class to fix the navbar on top */
 .navbar-wagon-fixed {
   position: fixed;
-  left: 0px;
   top: 0px;
   z-index: 1;
   width: 100%;
@@ -33,8 +32,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  letter-spacing: 0.5px;
-  color : #fff;
 }
 
 .navbar-wagon-right a {
